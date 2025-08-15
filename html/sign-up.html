@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <form action="#" method="POST" class="signUpForm">
+            <input type="text" placeholder="First Name" class="mediumFont input">
+            <input type="text" placeholder="Last Name" class="mediumFont input">
+            <input type="email" placeholder="Email" class="mediumFont input">
+            <div class="flex column-direction">
+                <input type="password" placeholder="Password" class="mediumFont input" id="inputPassword">
+                <button id="togglePassword">Toggle Password</button>
+            </div>
+            
+            <div class="flex column-direction">
+                <label for="dateInput" class="mediumFont">Date of Birth:</label>
+                <input type="date" id="dateInput" class="mediumFont input">
+            </div>
+            <div class="flex column-direction">
+                <label for="genderInput" class="mediumFont">Gender:</label>
+                <select id="genderInput" class="mediumFont input">
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                    <option value="x">Prefer not to say</option>
+                </select>
+            </div>
+            
+            <button id="submit-button" class="submit-button">Sign Up</button>
+        </form>
+    </main>
+</body>
+<script src="../js/script.js"></script>
+</html>

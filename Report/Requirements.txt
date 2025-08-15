@@ -1,0 +1,7 @@
+Functional:
+	1. Fill in the form
+	2. See the password
+	
+Non-functional:
+	1. Intuitive interface
+	2. User data must be protected while submitting the form
